@@ -1,0 +1,269 @@
+Name                                                                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+activities/__init__.py                                                                                                        0      0   100%
+activities/admin.py                                                                                                           1      0   100%
+activities/apps.py                                                                                                            4      0   100%
+activities/migrations/0001_initial.py                                                                                         8      0   100%
+activities/migrations/__init__.py                                                                                             0      0   100%
+activities/models.py                                                                                                         48      4    92%   33, 58, 83, 105
+activities/tests.py                                                                                                           1      0   100%
+clickbacon_connector/__init__.py                                                                                              0      0   100%
+clickbacon_connector/admin.py                                                                                                 1      0   100%
+clickbacon_connector/apps.py                                                                                                  4      0   100%
+clickbacon_connector/archive_document.py                                                                                     59     28    53%   34-36, 39-41, 49-51, 65-66, 75-78, 82-91, 103-119
+clickbacon_connector/category_name_to_id.py                                                                                   1      0   100%
+clickbacon_connector/clickbacon_document_notes.py                                                                            89     64    28%   37, 46-100, 126, 135-176
+clickbacon_connector/clickbacon_logging/__init__.py                                                                           1      0   100%
+clickbacon_connector/clickbacon_logging/log_document_status.py                                                               51     35    31%   96-260
+clickbacon_connector/clickbacon_s3_bucket_handler.py                                                                         49     41    16%   9-23, 27-42, 51-101
+clickbacon_connector/constants.py                                                                                            14      0   100%
+clickbacon_connector/create_document_data.py                                                                                 57      3    95%   168-170
+clickbacon_connector/document_approve_reject_sync.py                                                                        149    111    26%   22-26, 47-49, 63-64, 76-106, 120-194, 203-213, 225-238, 253-324, 334-359
+clickbacon_connector/document_balancer_activity.py                                                                           30     24    20%   19-124
+clickbacon_connector/document_data.py                                                                                       169     93    45%   115-116, 123-127, 148, 157-273, 297-298, 312-319, 336-350, 390-402, 408
+clickbacon_connector/document_extraction/extract_document_data.py                                                           150    135    10%   37-313, 344-355, 362-376, 384-402
+clickbacon_connector/document_extraction/invoice_extract_from_clickbacon_handler.py                                          37     26    30%   20-132
+clickbacon_connector/document_extraction/tasks.py                                                                            31     21    32%   25-101, 107-115
+clickbacon_connector/document_extraction/utils.py                                                                            90     73    19%   23-44, 52-71, 79-109, 117-131, 138-163, 167-183, 198-209, 215-220
+clickbacon_connector/document_re_review.py                                                                                   27     21    22%   16-63
+clickbacon_connector/endpoints.py                                                                                            16      0   100%
+clickbacon_connector/models.py                                                                                                1      0   100%
+clickbacon_connector/request_validators.py                                                                                   83      3    96%   86-90
+clickbacon_connector/serializers.py                                                                                         292    133    54%   38-47, 141-147, 150-152, 155-157, 163-168, 183-204, 207-212, 215-220, 229-255, 258-260, 337, 345-357, 371, 403-405, 408-420, 423-432, 435-438, 441-444, 447-451, 454-460, 463-469, 472-480, 483-486, 504-511, 526-528, 531-533, 536-538
+clickbacon_connector/tests.py                                                                                               268      8    97%   64, 222, 272, 304, 337, 380, 396, 483
+clickbacon_connector/urls.py                                                                                                  3      0   100%
+clickbacon_connector/utils.py                                                                                               164     85    48%   21-44, 81-82, 92-100, 133-134, 146-161, 206, 218, 226, 235, 250-257, 280-315, 345, 360-371, 383-394
+clickbacon_connector/views.py                                                                                               640    338    47%   99-100, 114-115, 139-145, 160-161, 188-205, 270-272, 301-303, 315-318, 324-327, 375-388, 397-402, 409-419, 432-442, 512-516, 558-594, 629, 656-737, 790-816, 827, 924-926, 978-1004, 1059-1060, 1071-1072, 1138-1141, 1149-1184, 1189-1222, 1228-1250, 1272-1333, 1345-1409, 1426-1439, 1446-1468, 1481-1514, 1521-1545, 1553-1579
+config.py                                                                                                                    49      0   100%
+database_backup/__init__.py                                                                                                   0      0   100%
+database_backup/admin.py                                                                                                      1      0   100%
+database_backup/apps.py                                                                                                       4      0   100%
+database_backup/constants.py                                                                                                  2      0   100%
+database_backup/models.py                                                                                                     1      0   100%
+database_backup/tests.py                                                                                                      1      0   100%
+database_backup/utils.py                                                                                                     44     32    27%   17, 26-53, 62-102
+documents/__init__.py                                                                                                         0      0   100%
+documents/admin.py                                                                                                          316    218    31%   63-71, 74, 79, 84-87, 140-155, 183-237, 242-245, 283-337, 341-344, 350-386, 390-406, 410-478, 482-534, 537, 540, 543, 588, 600-614, 619-626, 635-636, 644-663, 672-778, 783-867, 872, 875, 878, 881-883
+documents/apps.py                                                                                                             6      0   100%
+documents/constants.py                                                                                                       71      5    93%   101, 105-108
+documents/document_table_logger.py                                                                                           20     12    40%   19-56
+documents/document_table_operations.py                                                                                      326    290    11%   44-66, 70-73, 77-108, 112-205, 209-230, 234-238, 242-258, 262-281, 301-348, 364-429, 443-510, 526-534, 545-599, 605-687
+documents/document_table_utils.py                                                                                            64     52    19%   41-89, 98-145, 153-159, 163-171
+documents/filters.py                                                                                                        123     69    44%   135, 143-147, 150-164, 167-171, 174-182, 186-190, 194-198, 202-244, 248, 253-255, 271-275, 278-289
+documents/migrations/0001_initial.py                                                                                         10      0   100%
+documents/migrations/__init__.py                                                                                              0      0   100%
+documents/models.py                                                                                                         286     34    88%   42, 61-62, 104, 107-131, 450, 471-473, 489, 523, 555, 560-561, 596, 634, 656, 681, 715
+documents/request_validators.py                                                                                              54      0   100%
+documents/serializers.py                                                                                                    307     75    76%   74-96, 103-104, 283-285, 291-327, 339, 352, 362-363, 444-446, 468, 471, 505-548, 686-714
+documents/signals.py                                                                                                          7      0   100%
+documents/tests.py                                                                                                          842     78    91%   63, 70-71, 155, 162, 269-270, 277, 338-339, 412-413, 560, 567, 654-655, 768, 790-793, 898-901, 909-912, 920-922, 928-931, 943-946, 992-996, 1093, 1107-1109, 1152-1153, 1176-1177, 1186-1187, 1197-1198, 1218-1220, 1237, 1247, 1265-1266, 1285-1287, 1308, 1382, 1392, 1445-1446, 1465-1466, 1476-1477, 1486-1487, 1496-1497, 1506, 1515-1516
+documents/urls.py                                                                                                             3      0   100%
+documents/utils/__init__.py                                                                                                   1      0   100%
+documents/utils/document_action_controls.py                                                                                 105     58    45%   79-80, 91, 95-96, 108-113, 119-136, 154-179, 182-198
+documents/utils/document_change_tracker.py                                                                                  144    132     8%   27-94, 116-263, 273-288, 303-310, 317-340
+documents/utils/fetch_and_create_document_tables.py                                                                          93     59    37%   32-124, 132, 136-142, 149, 166-176, 184-186, 190-201, 205-208
+documents/utils/mark_document_as_other_type.py                                                                               40     22    45%   31-33, 37-38, 42, 48, 54, 60-94
+documents/views.py                                                                                                          822    417    49%   112, 140, 182, 219, 237, 305, 316, 320, 346-364, 388, 417-441, 488, 642, 665-679, 714, 725-727, 745-756, 769, 795-808, 823-868, 876-893, 1195-1198, 1209, 1219, 1242-1360, 1383, 1478-1756, 1800-1998, 2026-2084, 2103-2118, 2170, 2236-2439
+integrations/__init__.py                                                                                                      0      0   100%
+integrations/tests.py                                                                                                         1      0   100%
+invoice_balancer_scheduler/__init__.py                                                                                        0      0   100%
+invoice_balancer_scheduler/admin.py                                                                                          53     18    66%   38-40, 43, 48, 75-77, 80-92
+invoice_balancer_scheduler/apps.py                                                                                            4      0   100%
+invoice_balancer_scheduler/constants.py                                                                                       3      0   100%
+invoice_balancer_scheduler/filters.py                                                                                        34     13    62%   36-54, 57-66, 69-74
+invoice_balancer_scheduler/migrations/0001_initial.py                                                                         9      0   100%
+invoice_balancer_scheduler/migrations/__init__.py                                                                             0      0   100%
+invoice_balancer_scheduler/models.py                                                                                         45     11    76%   50-57, 60, 66, 72, 76-85, 88, 115
+invoice_balancer_scheduler/request_validators.py                                                                             44     16    64%   36-54, 66-84
+invoice_balancer_scheduler/serializers.py                                                                                   101     28    72%   40, 43, 46, 49-60, 63-71, 74-85, 150, 188, 191, 194-206, 209-221, 224-237, 240-243
+invoice_balancer_scheduler/services.py                                                                                      115     84    27%   34-111, 120-132, 141-149, 160-195, 208-261, 268-278
+invoice_balancer_scheduler/tests.py                                                                                           0      0   100%
+invoice_balancer_scheduler/urls.py                                                                                            3      0   100%
+invoice_balancer_scheduler/views.py                                                                                         317    269    15%   44-46, 52-90, 100-114, 123-189, 197-266, 284-322, 330-345, 356-375, 380-444, 453-461, 469-541, 550-569, 574-593, 598-670, 679-698, 703-722, 727-741
+invoice_processor/__init__.py                                                                                                 0      0   100%
+invoice_processor/admin.py                                                                                                    1      0   100%
+invoice_processor/apps.py                                                                                                     4      0   100%
+invoice_processor/auto_accept_document.py                                                                                    52     39    25%   41-154
+invoice_processor/aws_textract_handler/__init__.py                                                                            1      0   100%
+invoice_processor/aws_textract_handler/handler.py                                                                            15     11    27%   25-49
+invoice_processor/aws_textract_handler/utils.py                                                                              18     15    17%   6-11, 24-29, 42-48
+invoice_processor/constants.py                                                                                                6      0   100%
+invoice_processor/database/__init__.py                                                                                        0      0   100%
+invoice_processor/database/invoice_db_operations.py                                                                         539    401    26%   94-233, 248-326, 351, 369-371, 380-381, 386-397, 405-409, 424-481, 493-653, 703, 728-730, 756, 765, 789-795, 806-919, 922-926, 943, 950-980, 990-995, 1003-1018, 1054, 1067, 1083-1104, 1113-1130, 1165-1211
+invoice_processor/database/utils.py                                                                                          15     14     7%   11-60
+invoice_processor/document_categorizer/__init__.py                                                                            1      0   100%
+invoice_processor/document_categorizer/classifier.py                                                                          3      1    67%   15
+invoice_processor/human_verification_check.py                                                                               180    173     4%   12-90, 104-329, 339-431
+invoice_processor/image_processor/__init__.py                                                                                 1      0   100%
+invoice_processor/image_processor/utils.py                                                                                   52     33    37%   20-26, 32, 37, 41-61, 77-89, 97-101
+invoice_processor/invoice_extract_handler.py                                                                                 22      7    68%   22-25, 50-64
+invoice_processor/invoice_type_categorizer/__init__.py                                                                        1      0   100%
+invoice_processor/invoice_type_categorizer/classifier.py                                                                     27     23    15%   11-49
+invoice_processor/metadata_processor/__init__.py                                                                              2      0   100%
+invoice_processor/metadata_processor/combine_metadata.py                                                                    301    285     5%   27-531, 535-570, 574-592, 598-732, 739-749
+invoice_processor/metadata_processor/expense_api_metadata_handler/__init__.py                                                 1      0   100%
+invoice_processor/metadata_processor/expense_api_metadata_handler/expense_api_metadata_parser.py                             19     18     5%   15-39
+invoice_processor/metadata_processor/metadata_kv_extractor/__init__.py                                                        2      0   100%
+invoice_processor/metadata_processor/metadata_kv_extractor/address_extractor/address_extractor.py                            68     55    19%   26-95, 109-179
+invoice_processor/metadata_processor/metadata_kv_extractor/address_extractor/address_key_value_extractor.py                 288    256    11%   14, 17-51, 54-70, 73-79, 89-182, 185-189, 194, 203-211, 214-219, 231-292, 295-310, 313-337, 340-345, 348-431, 434-444, 447-462, 465-495, 498-515, 518-588, 591-599, 602-610, 613-621
+invoice_processor/metadata_processor/metadata_kv_extractor/address_extractor/key_fields.py                                   30      0   100%
+invoice_processor/metadata_processor/metadata_kv_extractor/address_extractor/utils.py                                        59     53    10%   5-13, 17-38, 42-52, 56-63, 67-99
+invoice_processor/metadata_processor/metadata_kv_extractor/key_value_extractor.py                                             8      2    75%   7, 11
+invoice_processor/metadata_processor/metadata_kv_extractor/meta_data_extractor.py                                            16      6    62%   13-29, 32, 35
+invoice_processor/metadata_processor/metadata_kv_extractor/nearby_key_value_extractor/__init__.py                             1      0   100%
+invoice_processor/metadata_processor/metadata_kv_extractor/nearby_key_value_extractor/find_key_value_pairs.py               199    167    16%   14-43, 46-52, 55-81, 84-90, 98-193, 196-200, 205, 218-231, 234-239, 249-312, 315-330, 341-347, 354-358, 363-372, 377-385, 388-398, 401-407, 412-419
+invoice_processor/metadata_processor/metadata_kv_extractor/nearby_key_value_extractor/key_fields.py                         150      0   100%
+invoice_processor/metadata_processor/metadata_kv_extractor/nearby_key_value_extractor/nearby_key_value_extractor.py          14      5    64%   13-21, 24
+invoice_processor/metadata_processor/metadata_kv_extractor/nearby_key_value_extractor/nearby_mapping.py                     169    151    11%   14-24, 27-33, 36-42, 45-50, 53-67, 70-99, 102-205, 210-240, 243-247, 253-300, 303-310, 313-323, 326-328, 333-366
+invoice_processor/metadata_processor/metadata_kv_extractor/template_key_value_extractor/__init__.py                           1      0   100%
+invoice_processor/metadata_processor/metadata_kv_extractor/template_key_value_extractor/template_key_value_extractor.py       6      2    67%   6, 9
+invoice_processor/metadata_processor/metadata_kv_extractor/utils.py                                                          48     43    10%   21-56, 64-94, 98-106
+invoice_processor/metadata_processor/utils.py                                                                               292    272     7%   26-63, 76-94, 119-133, 140-271, 290-320, 334-559, 563-567, 571-597, 617-629, 638-679
+invoice_processor/models.py                                                                                                   1      0   100%
+invoice_processor/pdf_invoice_processor.py                                                                                  236    190    19%   76-83, 97, 101, 104, 113-568, 604-622, 628-638
+invoice_processor/processor.py                                                                                              164    130    21%   69, 84-118, 130, 167-371, 385-485
+invoice_processor/request_validators.py                                                                                      16      0   100%
+invoice_processor/table_processor/__init__.py                                                                                 1      0   100%
+invoice_processor/table_processor/combined_table.py                                                                          35     29    17%   14-63, 67-76
+invoice_processor/table_processor/constants.py                                                                                3      0   100%
+invoice_processor/table_processor/find_table_columns.py                                                                     313    116    63%   141, 150-151, 166, 170-191, 195-209, 213-234, 237-247, 261, 268, 274-275, 286-297, 319, 326-328, 331-354, 412-413, 415, 419, 441-443, 611, 617, 708, 743-752, 757-763
+invoice_processor/table_processor/invoice_error_templates.py                                                                  4      0   100%
+invoice_processor/table_processor/table_builder.py                                                                          234    220     6%   17-61, 68-175, 179-191, 199-223, 239-275, 285-326, 333-348, 353-364, 378-434, 438-462
+invoice_processor/table_processor/table_postprocessing/postprocessing.py                                                    245    233     5%   35-185, 189-196, 201-227, 232-241, 248-371, 376-384, 395-426, 430-438
+invoice_processor/table_processor/table_postprocessing/table_combining.py                                                   240    210    12%   17-60, 64-71, 75-81, 85-87, 94-106, 111-132, 136-163, 167-219, 223-291, 295-301, 305-313, 317-323, 328-349, 353-365, 385-394, 398-417
+invoice_processor/table_processor/table_value_verification_layer.py                                                         577    565     2%   13-339, 344-373, 390-774, 785-874, 893-1093, 1098-1108, 1121-1248, 1252-1263
+invoice_processor/table_processor/utils.py                                                                                  400    375     6%   15-31, 39-121, 125-247, 251-350, 382-386, 390-403, 408-461, 468-485, 489-502, 507-572, 587-588
+invoice_processor/table_processor/vendor_specific_header_customization.py                                                    97     89     8%   34-169
+invoice_processor/tests.py                                                                                                   40      0   100%
+invoice_processor/urls.py                                                                                                     3      0   100%
+invoice_processor/views.py                                                                                                   51      5    90%   76-78, 102-104
+invoiceintelligence/__init__.py                                                                                               2      0   100%
+invoiceintelligence/celery.py                                                                                                 6      0   100%
+invoiceintelligence/middleware.py                                                                                            40      0   100%
+invoiceintelligence/settings.py                                                                                              58      0   100%
+invoiceintelligence/urls.py                                                                                                  17      1    94%   49
+invoiceissues/__init__.py                                                                                                     0      0   100%
+invoiceissues/admin.py                                                                                                        1      0   100%
+invoiceissues/apps.py                                                                                                         4      0   100%
+invoiceissues/migrations/0001_initial.py                                                                                      8      0   100%
+invoiceissues/migrations/__init__.py                                                                                          0      0   100%
+invoiceissues/models.py                                                                                                      41      3    93%   29, 41, 53
+invoiceissues/tests.py                                                                                                        1      0   100%
+item_categorizer/__init__.py                                                                                                  0      0   100%
+item_categorizer/admin.py                                                                                                     1      0   100%
+item_categorizer/apps.py                                                                                                      4      0   100%
+item_categorizer/constants.py                                                                                                 2      0   100%
+item_categorizer/database_item_categorizer.py                                                                                77     68    12%   22-148
+item_categorizer/line_item_categorizer.py                                                                                   100     90    10%   29-177
+item_categorizer/models.py                                                                                                    1      0   100%
+item_categorizer/openai_line_item_categorizer.py                                                                             21     10    52%   34-39, 43-61
+item_categorizer/tests.py                                                                                                     1      0   100%
+item_categorizer/utils.py                                                                                                     9      8    11%   10-17
+item_master/__init__.py                                                                                                       0      0   100%
+item_master/admin.py                                                                                                         15      2    87%   44, 47
+item_master/apps.py                                                                                                           6      0   100%
+item_master/constants.py                                                                                                      3      0   100%
+item_master/filters.py                                                                                                       53     23    57%   55, 63-66, 69-74, 77-82, 85-90
+item_master/migrations/0001_initial.py                                                                                        9      0   100%
+item_master/migrations/__init__.py                                                                                            0      0   100%
+item_master/models.py                                                                                                        57     16    72%   74, 90-126
+item_master/request_validators.py                                                                                             4      0   100%
+item_master/serializers.py                                                                                                   53     18    66%   49, 53-62, 68-73, 77-79
+item_master/signals.py                                                                                                       18      2    89%   18-19
+item_master/tests.py                                                                                                        222      7    97%   89, 195, 215, 285-286, 304, 315
+item_master/urls.py                                                                                                           3      0   100%
+item_master/utils.py                                                                                                          6      1    83%   12
+item_master/views.py                                                                                                        212     60    72%   71, 94, 155-156, 174-176, 189, 215, 230, 241-242, 264-266, 279, 291, 303, 345-372, 396-435, 457-461, 480, 482, 491-497, 503
+listing/__init__.py                                                                                                           0      0   100%
+listing/admin.py                                                                                                              1      0   100%
+listing/apps.py                                                                                                               4      0   100%
+listing/migrations/0001_initial.py                                                                                            6      0   100%
+listing/migrations/__init__.py                                                                                                0      0   100%
+listing/models.py                                                                                                             9      0   100%
+listing/tests.py                                                                                                              1      0   100%
+manage.py                                                                                                                    11      2    82%   12-13
+migration/__init__.py                                                                                                         0      0   100%
+migration/admin.py                                                                                                            1      0   100%
+migration/apps.py                                                                                                             4      0   100%
+migration/models.py                                                                                                           1      0   100%
+migration/tests.py                                                                                                            1      0   100%
+migration/urls.py                                                                                                             3      0   100%
+migration/views.py                                                                                                         1243   1168     6%   168-434, 438-548, 552-579, 583-659, 663-696, 700-753, 757-955, 959-963, 968-983, 988-991, 999-1005, 1013-1061, 1065-1239, 1243-1513, 1517-1549, 1553-1613, 1617-1632, 1643-1672, 1676-1689, 1695-1702, 1706-1728, 1732-1821, 1825-1887, 1891-1923, 1927-1962, 1966-2000, 2004-2046, 2050-2084, 2088-2122, 2126-2160, 2164, 2168-2339, 2399-2413, 2422-2430, 2434-2571, 2579-2636, 2645-2779, 2788-2899, 2906-3091, 3094-3354, 3357-3621, 3624-3658, 3661-3720, 3725-3806
+restaurant/__init__.py                                                                                                        0      0   100%
+restaurant/admin.py                                                                                                          40      7    82%   35, 40, 45, 50, 57, 90, 95
+restaurant/apps.py                                                                                                            4      0   100%
+restaurant/migrations/0001_initial.py                                                                                         7      0   100%
+restaurant/migrations/__init__.py                                                                                             0      0   100%
+restaurant/models.py                                                                                                         57      2    96%   105, 141
+restaurant/serializers.py                                                                                                     6      0   100%
+restaurant/tests.py                                                                                                          65      1    98%   93
+restaurant/urls.py                                                                                                            3      0   100%
+restaurant/views.py                                                                                                          15      0   100%
+users/__init__.py                                                                                                             0      0   100%
+users/admin.py                                                                                                               12      0   100%
+users/apps.py                                                                                                                 4      0   100%
+users/contants.py                                                                                                             7      0   100%
+users/filters.py                                                                                                             13      3    77%   19-21
+users/migrations/0001_initial.py                                                                                             11      0   100%
+users/migrations/__init__.py                                                                                                  0      0   100%
+users/models.py                                                                                                              27      2    93%   22, 45
+users/serializers.py                                                                                                         44      1    98%   70
+users/tests.py                                                                                                              154      2    99%   68, 151
+users/urls.py                                                                                                                 3      0   100%
+users/views.py                                                                                                              105     18    83%   38, 58-65, 111, 121-134, 160, 185, 246-253, 259
+utils/__init__.py                                                                                                             1      0   100%
+utils/admin.py                                                                                                                1      0   100%
+utils/apps.py                                                                                                                 4      0   100%
+utils/azure_handler/__init__.py                                                                                               1      0   100%
+utils/azure_handler/azure_blob_handler.py                                                                                    57     37    35%   11-14, 21-34, 48-82, 90-101
+utils/constant_enum_mixins.py                                                                                                 9      1    89%   23
+utils/constants.py                                                                                                            8      0   100%
+utils/date_processing.py                                                                                                     42     21    50%   17, 29, 45-48, 55-63, 67-74
+utils/memory_profiler.py                                                                                                     78     63    19%   20-21, 33-67, 77-144
+utils/migrations/0001_initial.py                                                                                              6      0   100%
+utils/migrations/__init__.py                                                                                                  0      0   100%
+utils/models.py                                                                                                              11      1    91%   11
+utils/number_processing.py                                                                                                   62     55    11%   9-36, 40-44, 61-94, 98-105, 113-122, 129-135
+utils/ocr_text_extraction.py                                                                                                 23     19    17%   7-27, 32-40
+utils/pagination.py                                                                                                          19      2    89%   66-76
+utils/phone_number.py                                                                                                         8      6    25%   7-16
+utils/request_validators.py                                                                                                  18      8    56%   29-43
+utils/responses.py                                                                                                            8      1    88%   28
+utils/rotation_detection_utils.py                                                                                            47     36    23%   30-59, 76-102
+utils/serializers.py                                                                                                         58      0   100%
+utils/tests.py                                                                                                              113      7    94%   45, 105-107, 130-132
+utils/urls.py                                                                                                                 3      0   100%
+utils/utils.py                                                                                                               66     44    33%   12-17, 27-47, 51-55, 59-64, 77-83, 87-89, 93-96, 100-104
+utils/views.py                                                                                                              133     39    71%   36, 51-52, 68-69, 76-81, 88-93, 100-103, 134-135, 155-182, 196-198, 259-260
+vendor/__init__.py                                                                                                            0      0   100%
+vendor/admin.py                                                                                                             165     96    42%   53-54, 59, 62, 65, 68, 71, 74, 79, 82, 111, 116, 119, 122, 125, 128, 131-132, 204, 218-313, 319-403, 408, 417, 430-448, 451-454, 468-475, 489-510, 530-534, 537-657
+vendor/apps.py                                                                                                                6      0   100%
+vendor/constants.py                                                                                                          17      0   100%
+vendor/filters.py                                                                                                           171    109    36%   17-34, 144-154, 157-162, 165-166, 169-174, 178-188, 192-202, 206-221, 226-236, 240-255, 260-268, 271-282, 285-289, 311-315, 318-322, 325-330, 356-364
+vendor/migrations/0001_initial.py                                                                                            11      0   100%
+vendor/migrations/__init__.py                                                                                                 0      0   100%
+vendor/models.py                                                                                                            206     17    92%   32-34, 56-57, 81, 164-170, 191, 209, 228, 269, 306, 322, 338, 432
+vendor/request_validators.py                                                                                                 48     17    65%   37-56, 97-102
+vendor/serializers_vendor.py                                                                                                109     45    59%   43-46, 49-52, 55-58, 64-71, 79-87, 131, 136, 141, 146-149, 154-157, 162, 167-176, 182-205, 235-237
+vendor/serializers_vendor_branch.py                                                                                          57      8    86%   28-30, 83, 88, 102-104
+vendor/signals.py                                                                                                           161    139    14%   23-24, 36-209, 216-230, 237-263, 270-279
+vendor/tests.py                                                                                                            1063    360    66%   55-57, 60-62, 65-68, 71-74, 77-79, 82-85, 88-91, 94-96, 99-102, 105-108, 111-114, 117-120, 123-126, 129-132, 135-138, 141-144, 149-152, 156-160, 164-168, 172-176, 180-183, 187-190, 194-199, 203-208, 212-216, 220-223, 227-231, 235-239, 255-256, 262-264, 268-270, 274-277, 281-283, 287-289, 293-296, 300-302, 306-309, 313-316, 320-323, 327-330, 334-337, 341-344, 348-351, 355-358, 518, 597-598, 605-606, 613-614, 623-625, 635-637, 646-648, 659-661, 668-670, 693-694, 707, 721-725, 729-731, 735-738, 742-745, 749-752, 779, 786-787, 918-919, 948, 985-986, 1039-1040, 1144-1145, 1167-1168, 1179-1180, 1191-1192, 1227-1228, 1239-1240, 1251-1252, 1263, 1274-1275, 1286-1287, 1292-1299, 1303-1305, 1308-1310, 1313-1316, 1319-1322, 1325-1342, 1345-1346, 1349-1356, 1359-1360, 1364-1365, 1368-1370, 1373-1374, 1377-1378, 1382-1384, 1388-1390, 1393, 1396-1400, 1404-1406, 1409-1416, 1419-1420, 1423-1426, 1429, 1432-1441, 1445-1448, 1451-1452, 1455-1457, 1460, 1464-1467, 1470-1473, 1476-1478, 1482-1485, 1488-1490, 1493-1495, 1498-1500
+vendor/urls_vendor.py                                                                                                         4      0   100%
+vendor/urls_vendor_branch.py                                                                                                  3      0   100%
+vendor/utils/__init__.py                                                                                                      3      0   100%
+vendor/utils/branch_search.py                                                                                               140    125    11%   29-232, 243-261, 269-340, 347-377, 386-399, 403-408
+vendor/utils/invoice_header_exceptions.py                                                                                    64     46    28%   27-100, 125-127, 132-133, 138-146
+vendor/utils/utils.py                                                                                                       126    114    10%   11-31, 64-103, 118-169, 184-211, 230-260, 272-293
+vendor/utils/vendor_and_restaurant_vendor_data.py                                                                            39     22    44%   36-97
+vendor/utils/vendor_archive_status.py                                                                                        26     10    62%   45, 51-53, 55-57, 60-62
+vendor/utils/vendor_processing.py                                                                                            10      8    20%   12-16, 29-33
+vendor/utils/vendor_search.py                                                                                               218    200     8%   30-138, 142-153, 160-193, 201-238, 243-293, 300-329, 338-352, 366-494, 506-570
+vendor/utils/vendor_similarity_utils.py                                                                                      45     36    20%   11-16, 20-24, 45-58, 77-106, 124-151
+vendor/vendor_and_branch_validation/branch_validation.py                                                                     95     92     3%   45-333
+vendor/vendor_and_branch_validation/google_map_utils.py                                                                      57     23    60%   29, 48, 56-57, 79-116
+vendor/vendor_and_branch_validation/vendor_validation.py                                                                     92     53    42%   64-65, 72-73, 76, 79-80, 93, 105-127, 133-141, 144, 147-148, 159-174, 178-193, 198, 201-202, 211-222
+vendor/view_vendor_note.py                                                                                                   42     27    36%   19-51, 57-87
+vendor/views_vendor.py                                                                                                      397    244    39%   70-102, 114-144, 151-246, 263, 274, 286, 314-320, 325-348, 357-380, 389-444, 468-501, 520-592, 596-627, 703-710, 724, 726, 770-771, 799-877, 892-928, 951-971, 1069-1079, 1086-1123
+vendor/views_vendor_branch.py                                                                                               241     53    78%   43, 51, 82, 88-89, 95, 143-144, 147, 171-172, 180, 195, 210-252, 288-289, 347, 378-379, 411-436, 551-583
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                     19590  11131    43%
