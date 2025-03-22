@@ -118,3 +118,5 @@ This will generate `readme.pdf` with embedded images for Mermaid diagrams.
 
 Use this script whenever you need to generate a **PDF** from a Markdown file with Mermaid diagrams! 🚀
 
+## extension for git hub to pdf
+[Github markdown printer](https://chromewebstore.google.com/detail/fehpdlpmcegfpbkgcnaleindodeegapk?utm_source=item-share-cb)
